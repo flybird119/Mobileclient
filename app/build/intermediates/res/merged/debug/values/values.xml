@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/TempFile/Android/Mobileclient/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="setting_margin_left">25dp</dimen>
+    <dimen name="setting_margin_right">9dp</dimen>
+    <dimen name="setting_margin_top">25dp</dimen>
+    <!-- From: file:/D:/TempFile/Android/Mobileclient/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">智慧</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detailmessage">Detailmessage</string>
+    <string name="title_activity_dialog">Dialog</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_startui">Startui</string>
+    <!-- From: file:/D:/TempFile/Android/Mobileclient/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+        
+    </style>
+    <style name="mystyle" parent="android:Animation">  
+        <item name="@android:windowEnterAnimation">@anim/head_in</item>  //进入时的动画   
+        <item name="@android:windowExitAnimation">@anim/head_out</item>    //退出时的动画   
+    </style>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   >
+    
+	<RelativeLayout 
+            
+            android:layout_width="match_parent" 
+    		android:layout_height="wrap_content" 
+    		android:padding="12dip"
+    		android:background="#F5F5F5">
+    		
+           <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentLeft="true"
+    			android:gravity="center"
+    			>
+		  
+               <ImageView 
+                   android:id="@+id/top_head"
+                   android:layout_width="28dip"
+                   android:layout_height="28dip"
+                   android:layout_gravity="center_vertical"
+                   android:background="@drawable/ic_launcher"
+                   android:padding="2dip"
+                   android:src="@drawable/ic_launcher"
+                   android:scaleType="fitXY"/>
+               
+                <TextView
+                    android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:text="首页"
+    				android:layout_marginLeft="10dip"
+    				android:textSize="18sp"
+    				android:textColor="#4D4D4D"
+    				/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentRight="true"
+    			android:gravity="center">
+                
+                  <ImageView 
+                    android:layout_width="30dp" 
+    				android:layout_height="30dp" 
+    				android:id="@+id/imv_home_head_set"
+    				android:clickable="true"
+    				android:src="@drawable/actionbar_more_icon"/>
+                  
+            </LinearLayout>
+           
+        </RelativeLayout>
+</LinearLayout>
+
+<!-- From: file:/D:/TempFile/Android/Mobileclient/app/src/main/res/layout/homepage_head.xml -->

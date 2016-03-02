@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage" 
+    android:background="#FFFFFF">
+	<LinearLayout
+        android:id="@+id/layout_homepage_head" 
+        android:orientation="vertical"
+        android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentTop="true" >
+        <include 
+            layout="@layout/homepage_head"/>
+
+    </LinearLayout>
+    <Button 
+        android:id="@+id/btn_home_shown"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/layout_homepage_head"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:background="@drawable/buttonselectorroll"
+        android:textColor="#ffffff"
+        android:text="OK"
+        />
+    <TextView 
+        android:id="@+id/txt_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_home_shown"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:text=""
+        />
+
+</RelativeLayout>
+<!-- From: file:/D:/TempFile/Android/Mobileclient/app/src/main/res/layout/homepage.xml -->

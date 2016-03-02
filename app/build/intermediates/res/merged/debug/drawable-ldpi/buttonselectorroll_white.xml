@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- pressed -->
+    <item android:state_pressed="true" >
+        <shape  android:shape="oval">
+            <gradient
+                android:startColor="#ffff00"
+                android:endColor="#ffff00"
+                android:angle="270" />           
+            <corners
+                android:radius="5dp" />
+        </shape>
+    </item>
+   <!-- focus -->
+   <item android:state_focused="true" >
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#ffff00"
+                android:endColor="#ffff00"
+                android:angle="270" />            
+            <corners
+                android:radius="5dp" />
+        </shape>
+    </item>
+<!-- default -->
+    <item>        
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#ffffff"
+                android:endColor="#ffffff"
+                android:angle="0" />
+            <corners
+                android:radius="3dp" />
+        </shape>
+    </item>
+</selector>
+<!-- From: file:/D:/TempFile/Android/Mobileclient/app/src/main/res/drawable-ldpi/buttonselectorroll_white.xml -->
